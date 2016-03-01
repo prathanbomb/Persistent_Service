@@ -10,7 +10,30 @@
     tools:context="com.bsupits.persistentservice.MainActivity">
 
     <TextView
+        android:id="@+id/counter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_below="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Start"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_below="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Stop"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
 </RelativeLayout>
